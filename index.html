@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica de html y css" />
+    <meta name="keywords" content="etiquetas,atributos,css,html" />
+    <meta name="author" content="Ituarte Gaston " />
+    <title>Portfolio Personal</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+  <body id="inicio">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>𝓖𝓪𝓼𝓽𝓸𝓷 𝓘𝓽𝓾𝓪𝓻𝓽𝓮</h1>
+      <p>Desarrollador Web Junior</p>
+      <!-- Lugar para imagen/avatar -->
+      <img class="avatar" src="/img/image.png" alt="Avatar Personal" />
+    </header>
+
+    <main>
+      <section id="acerca-de-mi">
+        <h2>Acerca de mí</h2>
+        <p>
+          Hola, soy Gastón Ituarte. Me gusta mucho todo lo relacionado con la
+          programación, sobre todo crear páginas web y aprender cosas
+          nuevas.Tengo conocimientos en JavaScript, HTML y CSS, me gustaria
+          seguir mejorandolo y llegar a otro nivel, y meterme de a poco en otros
+          lenguajes. En el futuro me gustaría trabajar como desarrollador y
+          formar parte de proyectos grandes. <br />
+          <strong> Por qué te interesa la programación:</strong> Me gusta
+          resolver problemas y encontrar soluciones con código. Siempre me llamó
+          la atención cómo funcionan las páginas por dentro. Disfruto mucho
+          aprender cosas nuevas y aplicarlas en proyectos reales o de práctica.
+        </p>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="grid-proyectos">
+          <div class="proyecto">
+            <h3>Gestion de Instituciones</h3>
+            <p>Un sitio web estático creado con HTML, JS y CSS.</p>
+            <img src="/img/proyectoA.png" alt="Proyecto A" />
+          </div>
+          <div class="proyecto">
+            <h3>landing page</h3>
+            <p>Una landing page con diseño responsivo.</p>
+            <img src="https://via.placeholder.com/150" alt="landing page" />
+          </div>
+          <div class="proyecto">
+            <h3>CRUD</h3>
+            <p>Gestion de alquiler de autos</p>
+            <img src="https://via.placeholder.com/150" alt="Proyecto C" />
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Correo:
+          <a href="mailto:gastonituarte100@gmail.com"
+            >gastonituarte100@gmail.com</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/Gaston5901" target="_blank"
+            >https://github.com/Gaston5901</a
+          >
+        </p>
+        <form>
+          <input type="text" placeholder="Tu nombre" required/>
+          <input type="email" placeholder="Tu correo" required/>
+          <textarea placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Ituarte Gaston - 2025</p>
+      <p>
+        Redes sociales:
+        <a href="https://www.instagram.com/gastonsanna?igsh=NjY0MnZ6YmoxZ3g4"
+          >Instagram</a
+        >
+        | <a href="#">Twitter</a>
+      </p>
+    </footer>
+  </body>
+</html>
