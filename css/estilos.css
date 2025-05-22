@@ -13,14 +13,16 @@ body {
 }
 
 header {
-  background: url(../img/imagencodigo.png);
+  background: url(../img/pp.png);
   color: #ffffff;
   padding: 4rem;
   text-align: center;
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 
 }
-
 header img.avatar {
   width: 150px;
   height: 150px;
