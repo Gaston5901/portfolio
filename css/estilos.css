@@ -13,14 +13,14 @@ body {
 }
 
 header {
-  background: url(../img/pp.png);
+  background: url(../img/imagenfondo.png);
   color: #ffffff;
   padding: 4rem;
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 60vh;
 
 }
 header img.avatar {
